@@ -1,0 +1,14 @@
+.container_articles{
+  margin-top: 30px;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.articles_main{
+  max-width: 40%;
+}
+
+.articles_others{
+  max-width: 40%;
+}
