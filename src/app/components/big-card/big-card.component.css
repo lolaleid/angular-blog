@@ -1,9 +1,9 @@
 .container_big-card{
-  border: solid white 2px;
   margin-left: 20px;
   margin-right: 20px;
-  height: 600px;
-  width: 80%;
+
+  width: 400px;
+  height: 500px;  
 
   display: flex;
   flex-direction: column;
@@ -20,10 +20,10 @@
   margin-top: 15px;
 }
 
-.big-card_description > p > a{
+.big-card_description > a > p{
   color: gray;
 }
 
 .big-card_photo > img{
-  width: 100%;
+  width: 400px;
 }
