@@ -1,19 +1,21 @@
 <div class="container_big-card">
   <div class="big-card_photo">
     <img
-      src="https://talentclick.com/wp-content/uploads/2021/08/placeholder-image.png"
+      src="{{ photoCover }}"
       alt="placeholder"
       width="100%">
   </div>
 
   <div class="big-card_title">
-    <h1><a href="">Saiu a nova versão do Angular</a></h1>
+    <h1><a [routerLink]="['content', id]">{{ cardTitle }}</a></h1>
   </div>
 
   <div class="big-card_description">
-    <a href="">
-      <p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos.</p>
-    </a>
+    <p>
+      <a [routerLink]="['content', id]">
+        {{ cardDescription }}
+      </a>
+    </p>
   </div>
 
 </div>
