@@ -64,10 +64,17 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
+<<<<<<< HEAD
               "browserTarget": "psn-store:build:production"
             },
             "development": {
               "browserTarget": "psn-store:build:development"
+=======
+              "browserTarget": "angular-blog:build:production"
+            },
+            "development": {
+              "browserTarget": "angular-blog:build:development"
+>>>>>>> c1278c58657b0cb3599e8e170417d6e55ae39ad9
             }
           },
           "defaultConfiguration": "development"
@@ -75,7 +82,11 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
+<<<<<<< HEAD
             "browserTarget": "psn-store:build"
+=======
+            "browserTarget": "angular-blog:build"
+>>>>>>> c1278c58657b0cb3599e8e170417d6e55ae39ad9
           }
         },
         "test": {
@@ -99,6 +110,10 @@
     }
   },
   "cli": {
+<<<<<<< HEAD
     "analytics": false
+=======
+    "analytics": "3b479a6b-ba72-4e5f-887e-86016fa9f1d2"
+>>>>>>> c1278c58657b0cb3599e8e170417d6e55ae39ad9
   }
 }
